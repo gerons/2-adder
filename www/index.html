@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+        <link rel="stylesheet" href="css/onsenui.min.css">
+        <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    </head>
+    <body>
+        <ons-page>
+            <ons-toolbar>
+                <div class="center">Sumar 2 numeros</div>
+                <div class="right" style="padding-right: 10px;">
+                    <ons-icon icon="md-face" size="20px"></ons-icon>
+                  </div>
+            </ons-toolbar>
+
+            <div style="text-align: center;">
+                <p>Ingrese dos numeros y pulse sumar</p>
+                
+                <p><ons-input type="number" id="numero1" placeholder="Pprimer número"></ons-input></p>
+                <p><ons-input type="number" id="numero2" placeholder="Segundo número"></ons-input></p>
+                
+                <p><ons-button id="btnSumar">Sumar</ons-button></p>
+                <ons-button id="btnLimpiar">Limpiar</ons-button>
+            </div>
+        </ons-page>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/onsenui.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
